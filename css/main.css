@@ -1540,18 +1540,18 @@ p {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.service-img-item-2, 
-  .service-img-item-2-alt {
-
-
- 
-}
 
 .service-img-item-2 {
+  padding: 10px;
   opacity: 0.5;
+ 
   
 }
-
+.service-img-item-22{
+  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .service-card:hover .service-img-item-2 {
   opacity: 0;
 }
@@ -1820,9 +1820,9 @@ p {
 }
 
 .form-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  display: block;
+  
+  
 }
 
 @media (min-width: 1024px) {
@@ -1833,6 +1833,7 @@ p {
 
 .input-wrap {
   display: flex;
+  padding-bottom: 10px;
   min-height: 70px;
   flex: 1 1 0%;
 }
